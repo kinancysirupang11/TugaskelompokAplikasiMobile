@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kinan.SQLite.HomeActivity"
+    android:orientation="vertical"
+    android:background="#f6def6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APLIKASI INPUT NILAI"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="#ffa5b0"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearCrud"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="16sp">
+
+
+        <Button
+            android:id="@+id/btnhome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUKA"
+            android:layout_gravity="bottom"
+            android:background="#ffa5b0"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
